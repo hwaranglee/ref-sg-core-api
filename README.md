@@ -81,12 +81,13 @@ API이용 방법은 일반적인 호출 방식과 비슷하다. 먼저 계정에
 핸드폰가입은 번호 인증을 먼저 받아야 한다. 이후 user post를 이용해서 인증번호와 함께 가입이 가능하다.
 
 1. POST http://mydomain.com/api/accounts/sender-phone
-- phoneNum  : 인증받을 전화번호, 반드시 +와 국가코드를 붙이고 하이픈(-)은 뺀형태여야 한다. 예) +821012341234
-- type  : [phoneSignup]
+  - phoneNum  : 인증받을 전화번호, 반드시 +와 국가코드를 붙이고 하이픈(-)은 뺀형태여야 한다. 예) +821012341234
+  - type  : [phoneSignup]
+
 2. POST http://mydomain.com/api/accounts/users
-- type : [phone]
-- uid : 인증받은 전화번호
-- secret : 1번에서 받은 인증번호
+  - type : [phone]
+  - uid : 인증받은 전화번호
+  - secret : 1번에서 받은 인증번호
 
 
 
