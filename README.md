@@ -73,9 +73,9 @@ API이용 방법은 일반적인 호출 방식과 비슷하다. 먼저 계정에
 이메일 가입은 말그대로 이메일이 아이디가 되어 가입하는 형태를 의미하는데, 이때 두가지 옵션이 있다. 하나는 이메일 바로 인증이며, 또 하나는 이메일로 특정 해쉬값을 전송하여 재인증 받는 방식이다.
 
 1. POST http://mydomain.com/api/accounts/users
-- type : [email]
-- uid : email id값
-- secret : 비밀번호
+  - type : [email]
+  - uid : email id값
+  - secret : 비밀번호
 
 #### 핸드폰가입
 핸드폰가입은 번호 인증을 먼저 받아야 한다. 이후 user post를 이용해서 인증번호와 함께 가입이 가능하다.
