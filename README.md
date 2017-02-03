@@ -1,4 +1,5 @@
 # SG API 이용가이드
+https://jbt.github.io/markdown-editor/
 
 slogup에서는 Express의 Wrapper Module인 SG-Core Framework를 보유하고 있다. 해당 프레임워크는 앞으로 `코어`라고 명명한다.
 
